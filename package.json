@@ -1,0 +1,25 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "my test quest",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack --config client/webpack/webpack.config.js && node main.js",
+    "build": "webpack --config client/webpack/webpack.config.js"
+  },
+  "author": "Andrey Kernichniy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  },
+  "email": "yoyo100295@hotmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowstroom/test-task"
+  }
+}
